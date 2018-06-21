@@ -42,4 +42,8 @@ $(document).ready(function(){
             $(".scrollTop").fadeOut(500);
         }
     });
+
+    $(".translate").on("click", function(){
+        $(this).toggleClass("translateClick");
+    });
 });

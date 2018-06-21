@@ -98,7 +98,9 @@ footer ul li{
 	margin-bottom: 10px;
 }
 
-
+.mail{
+	/* post code her */
+}
 
 .myphoto{
 	min-width: 50px;
@@ -136,4 +138,27 @@ footer ul li{
 	height: 50px;
 	width: 100px;
 	max-width: 35%;
+}
+
+.translate{
+	width: 15%;
+	height: 30px;
+	text-align: left;
+	padding: 10px;
+	color: var(--redFlameScarlet);
+	overflow-y: auto;
+	overflow: hidden;
+	background-image: url(../imgs/Flag_of_Brazil.svg.png);
+	background-repeat: no-repeat;
+	background-size: auto 50px;
+}
+
+.translate p:first-child{
+	margin-top: 50px;
+}
+
+.translateClick{
+	border: thin ridge var(--greenFern);
+	width: auto;
+	height: auto;
 }
