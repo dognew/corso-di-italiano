@@ -52,13 +52,13 @@ body{
 
 aside, article{
 	border: thin ridge var(--greenFern);
-	padding: 0px 30px 30px 30px;
+	padding: 0px 15px 30px 15px;
 	margin: 30px 0px 30px 0px;
 }
 
 section{
 	display: block;
-	padding: 50px 40px 300px 40px;
+	padding: 50px 20px 300px 20px;
 	width: calc( 80% - 80px );
 	margin: 0 auto 0;
 	background-color: var(--whiteBright);
