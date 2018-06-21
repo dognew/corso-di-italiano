@@ -23,11 +23,15 @@ $(document).ready(function(){
         $("#audioPlayer").trigger("play");
     });
 
-    $("*[name]").each(function(){
-        anchor = $(this).attr("name");
+    $("body *[name]").each(function(){
+        anchor = $(this).attr("id");
         text = $(this).text();
-        if(anchor != "indice" && anchor != "viewport"){
+        alert(anchor);
+        if(anchor != "indice" && anchor != undefined){
             $("#index ul").append("<li><a class='navSoft' href='#" + anchor + "'>" + text + "</a></li>");
+        }
+        if(anchor == undefined){
+            alert("Exists anchors undefined!");
         }
     });
 
