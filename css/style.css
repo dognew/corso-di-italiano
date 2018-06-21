@@ -30,6 +30,10 @@
     font-style: normal;
 }
 
+*{
+	box-sizing: border-box;
+}
+
 html, body{
 	height: 100%;
 	font-family: 'Facebook Letter Faces';
@@ -79,9 +83,9 @@ section{
 
 footer{
 	position: fixed;
-	width: calc( 80% - 20px );
+	width: 73.6%;
 	bottom: 0;
-	left: 10%;
+	left: 11.7%;
 	padding: 20px 20px 10px 0px;
 	background: linear-gradient(to top, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0));
 }
@@ -155,7 +159,7 @@ footer ul li{
 
 .translate{
 	width: 15%;
-	height: 30px;
+	height: 50px;
 	text-align: left;
 	padding: 10px;
 	color: var(--redFlameScarlet);
@@ -179,5 +183,6 @@ footer ul li{
 	border: thin ridge var(--greenFern);
 	width: auto;
 	height: auto;
+	background-image: url(../imgs/Translate_of_Brazil_to_Italy.svg.png);
 	background-position: top right;
 }
