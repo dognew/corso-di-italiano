@@ -26,7 +26,6 @@ $(document).ready(function(){
     $("body *[name]").each(function(){
         anchor = $(this).attr("id");
         text = $(this).text();
-        alert(anchor);
         if(anchor != "indice" && anchor != undefined){
             $("#index ul").append("<li><a class='navSoft' href='#" + anchor + "'>" + text + "</a></li>");
         }
