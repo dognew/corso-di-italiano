@@ -148,9 +148,14 @@ footer ul li{
 	color: var(--redFlameScarlet);
 	overflow-y: auto;
 	overflow: hidden;
-	background-image: url(../imgs/Flag_of_Brazil.svg.png);
+	background-image: url(../imgs/Translate_of_Italy_to_Brazil.svg.png);
 	background-repeat: no-repeat;
 	background-size: auto 50px;
+	background-position: top left;
+}
+
+.translate:hover{
+	cursor: pointer;
 }
 
 .translate p:first-child{
@@ -161,4 +166,5 @@ footer ul li{
 	border: thin ridge var(--greenFern);
 	width: auto;
 	height: auto;
+	background-position: top right;
 }
