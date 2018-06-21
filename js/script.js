@@ -30,7 +30,7 @@ $(document).ready(function(){
             $("#index ul").append("<li><a class='navSoft' href='#" + anchor + "'>" + text + "</a></li>");
         }
         if(anchor == undefined){
-            alert("Exists anchors undefined!");
+            alert("Exists anchors undefined: "+anchor);
         }
     });
 
