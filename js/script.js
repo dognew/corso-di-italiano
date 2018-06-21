@@ -1,5 +1,22 @@
 $(document).ready(function(){
 
+    var page = 'https://dognew.github.io/corso-di-italiano/';
+
+    function checkUrl(url){
+        var http = new XMLHttpRequest();
+        http.open('HEAD', url, false);
+        http.send();
+        return http.status;
+    }
+
+    $(".player").each(function(){
+        var audio = $(this).attr("audio");
+        var urlaudio = page + audio;
+        if(checkUrl(urlaudio) == 404){
+            $(this).hide();
+        }
+    });
+
     $(".player").on("click", function(){
         $("#audioPlayer source").attr("src",$(this).attr("audio"));
         $("#audioPlayer").trigger("load");
