@@ -37,9 +37,9 @@ $(document).ready(function(){
     $(document).scroll(function(){
         var y = $(this).scrollTop();
         if(y > 800){
-            $(".scrollTop").fadeIn();
+            $(".scrollTop").fadeIn(1000);
         } else {
-            $(".scrollTop").fadeOut();
+            $(".scrollTop").fadeOut(500);
         }
     });
 });
