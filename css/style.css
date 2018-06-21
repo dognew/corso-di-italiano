@@ -106,10 +106,8 @@ footer ul li{
 }
 
 .scrollTop{
-	/* display: none; */
-	/* float: right; */
 	position: fixed;
-	right: 10%;
+	right: 6%;
 	top: 25px;
 	background-image: url("../imgs/indice.png");
 	background-repeat: no-repeat;
