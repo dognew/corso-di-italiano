@@ -50,8 +50,10 @@ body{
 	background-size: 100% 100%;
 }
 
-aside{
-	display: inherit;
+aside, article{
+	border: thin ridge var(--greenFern);
+	padding: 0px 30px 30px 30px;
+	margin: 30px 0px 30px 0px;
 }
 
 section{
@@ -98,6 +100,7 @@ footer ul li{
 
 .flagItaly{
 	text-align: center;
+	font-size: 1.5em;
 }
 
 .flagItaly img{
