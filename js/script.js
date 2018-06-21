@@ -23,7 +23,7 @@ $(document).ready(function(){
         $("#audioPlayer").trigger("play");
     });
 
-    $("body *[name]").each(function(){
+    $(".nameAnchor").each(function(){
         anchor = $(this).attr("id");
         text = $(this).text();
         if(anchor != "indice" && anchor != undefined){
