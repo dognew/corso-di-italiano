@@ -1,0 +1,123 @@
+/*
+ * Colors flag[
+ * 		Fern Green (0,146,70)
+ * 		Bright White (241,242,241)
+ * 		Flame Scarlet (206,43,55)
+ * */
+
+:root{
+	--greenFern: rgb(0, 146, 70);
+	--whiteBright: rgb(241, 242, 241);
+	--redFlameScarlet: rgb(206, 43, 55);
+}
+
+@font-face {
+    font-family: 'Facebook Letter Faces';
+    src: url('../fonts/FacebookLetterFaces.eot');
+    src: url('../fonts/FacebookLetterFaces.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FacebookLetterFaces.woff2') format('woff2'),
+        url('../fonts/FacebookLetterFaces.woff') format('woff'),
+        url('../fonts/FacebookLetterFaces.svg#FacebookLetterFaces') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body{
+	height: 100%;
+	font-family: 'Facebook Letter Faces';
+	font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin-top: 50px;
+	font-weight: 100;
+}
+
+a{
+	color: var(--greenFern);
+	text-decoration: none;
+}
+
+a:hover{
+	opacity: 0.6;
+}
+
+body{
+	color: var(--greenFern);
+	padding: 0;
+	margin: 0;
+	background-image: url("../imgs/Flag_of_Italy.png");
+	background-size: 100% 100%;
+}
+
+aside{
+	display: inherit;
+}
+
+section{
+	display: block;
+	padding: 50px 40px 300px 40px;
+	width: calc( 80% - 80px );
+	margin: 0 auto 0;
+	background-color: var(--whiteBright);
+	word-wrap: break-word;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 10%;
+	padding: 20px 20px 10px 0px;
+}
+
+footer ul{
+	margin: 0;
+	padding: 0;
+}
+
+footer ul li{
+	display: inline;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.myphoto{
+	min-width: 50px;
+	max-width: 70px;
+}
+
+.player{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	background-image: url('../imgs/audio.png');
+	background-repeat: no-repeat;
+}
+
+.flagItaly{
+	text-align: center;
+}
+
+.flagItaly img{
+	max-width: 50%;
+	box-shadow: 10px 10px 10px #c9c;
+}
+
+.scrollTop{
+	/* display: none; */
+	/* float: right; */
+	position: fixed;
+	right: 10%;
+	top: 25px;
+	background-image: url("../imgs/indice.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #000 inset;
+	transform: rotate(15deg);
+	height: 50px;
+	width: 100px;
+	max-width: 35%;
+}
