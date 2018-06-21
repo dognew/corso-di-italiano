@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="50"
+   viewBox="0 0 26.458333 13.229167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (unknown)"
+   sodipodi:docname="indice.svg"
+   inkscape:export-filename="/home/dognew/000/MyTrabs/GitHub/corso-di-italiano/imgs/indice.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient889">
+      <stop
+         style="stop-color:#009246;stop-opacity:1;"
+         offset="0"
+         id="stop885" />
+      <stop
+         style="stop-color:#ce2b37;stop-opacity:1"
+         offset="1"
+         id="stop887" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="EmptyDiamondLstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyDiamondLstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1072"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="EmptyTriangleOutL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="EmptyTriangleOutL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1117"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#ffffff;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,-4.8,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path978"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path960"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter868"
+       x="-0.049276967"
+       width="1.0985539"
+       y="-0.13361266"
+       height="1.2672253">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.44587884"
+         id="feGaussianBlur870" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient889"
+       id="linearGradient891"
+       x1="-153.71349"
+       y1="213.86246"
+       x2="-151.31395"
+       y2="216.77914"
+       gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter959"
+       x="-0.016850214"
+       width="1.0337004"
+       y="-0.045688725"
+       height="1.0913775">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.15246786"
+         id="feGaussianBlur961" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.3580022"
+     inkscape:cx="50.410495"
+     inkscape:cy="13.005858"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-global="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(164.41965,-208.93155)">
+    <g
+       id="g900"
+       transform="matrix(8.8194444,0,0,6.6145833,-164.41965,208.93155)"
+       style="stroke-width:17.32050896">
+      <rect
+         id="rect883"
+         height="2"
+         width="3"
+         x="0"
+         y="0"
+         style="fill:#009246;stroke-width:17.32050896" />
+      <rect
+         id="rect885"
+         x="1"
+         height="2"
+         width="2"
+         y="0"
+         style="fill:#ffffff;stroke-width:17.32050896" />
+      <rect
+         id="rect887"
+         x="2"
+         height="2"
+         width="1"
+         y="0"
+         style="fill:#ce2b37;stroke-width:17.32050896" />
+    </g>
+    <g
+       id="g978">
+      <rect
+         rx="2.6458333"
+         ry="2.6458333"
+         y="211.54161"
+         x="-162.04858"
+         height="8.0090408"
+         width="21.716215"
+         id="rect846"
+         style="opacity:0.6;vector-effect:none;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter868)" />
+      <rect
+         transform="matrix(0.94023141,0,0,0.84569637,-8.5774266,33.655254)"
+         style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.59342778;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter959)"
+         id="rect893"
+         width="21.716215"
+         height="8.0090408"
+         x="-162.04858"
+         y="211.54161"
+         ry="2.6458333"
+         rx="2.6458333" />
+    </g>
+    <g
+       id="g974"
+       transform="translate(0.51332577,0.46583222)">
+      <g
+         transform="matrix(0.7801101,0,0,0.7801101,-32.797986,47.907009)"
+         id="text932"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.07038403px;line-height:1.25;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L';letter-spacing:0px;word-spacing:0px;fill:#ce2b37;fill-opacity:1;stroke:none;stroke-width:0.33916152"
+         aria-label="INDICE">
+        <path
+           inkscape:connector-curvature="0"
+           id="path934"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ce2b37;fill-opacity:1;stroke-width:0.33916152"
+           d="m -161.9579,218.07147 h 0.82017 v -5.40884 h -0.82017 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path936"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ce2b37;fill-opacity:1;stroke-width:0.33916152"
+           d="m -156.13621,212.66263 h -0.75653 v 1.99385 c 0,0.86258 0.0212,1.55548 0.0848,2.2908 l -0.0212,0.007 c -0.23332,-0.5727 -0.53735,-1.19489 -0.87673,-1.78881 l -1.41407,-2.50291 h -0.89087 v 5.40884 h 0.75653 v -2.02213 c 0,-0.94743 -0.0141,-1.6474 -0.0566,-2.33322 l 0.0283,-0.007 c 0.24746,0.60805 0.5727,1.24438 0.89794,1.83122 l 1.42114,2.5312 h 0.82724 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path938"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ce2b37;fill-opacity:1;stroke-width:0.33916152"
+           d="m -154.99799,218.05733 c 0.30403,0.0424 0.6929,0.0636 1.17368,0.0636 0.95451,0 1.72518,-0.24039 2.21303,-0.7141 0.47372,-0.45958 0.77775,-1.17369 0.77775,-2.15647 v -0.007 c 0,-1.20197 -0.48079,-2.62311 -2.78573,-2.62311 -0.50907,0 -0.98986,0.0495 -1.37873,0.11312 z m 0.82017,-4.73009 c 0.1414,-0.0283 0.35351,-0.0566 0.63633,-0.0566 1.16661,0 1.84537,0.67876 1.84537,1.99385 0,1.49185 -0.73532,2.20596 -1.95143,2.19889 -0.1909,0 -0.38887,-0.007 -0.53027,-0.0283 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path940"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ce2b37;fill-opacity:1;stroke-width:0.33916152"
+           d="m -149.9852,218.07147 h 0.82017 v -5.40884 h -0.82017 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path942"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ce2b37;fill-opacity:1;stroke-width:0.33916152"
+           d="m -144.67965,217.26545 c -0.23332,0.11312 -0.60805,0.1909 -0.97571,0.1909 -1.11712,0 -1.81002,-0.74239 -1.81002,-2.07162 0,-1.40701 0.77774,-2.11405 1.82416,-2.11405 0.40301,0 0.72118,0.0919 0.94743,0.19797 l 0.17676,-0.67168 c -0.14848,-0.0778 -0.53028,-0.21212 -1.15247,-0.21212 -1.49892,0 -2.65847,1.004 -2.65847,2.8423 0,1.72517 1.01107,2.7221 2.51706,2.7221 0.58684,0 1.04642,-0.11313 1.27267,-0.22626 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path944"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ce2b37;fill-opacity:1;stroke-width:0.33916152"
+           d="m -140.78122,217.38564 h -2.12818 v -1.79587 h 1.89486 v -0.67876 h -1.89486 v -1.56255 h 2.00799 v -0.68583 h -2.82816 v 5.40884 h 2.94835 z" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.51567793px;line-height:1.25;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-opacity:1;"
+         x="-160.29433"
+         y="217.28503"
+         id="text949"><tspan
+           sodipodi:role="line"
+           id="tspan947"
+           x="-160.29433"
+           y="217.28503"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#ffffff;fill-opacity:1;stroke-width:0.1;stroke:none;stroke-opacity:1;">INDICE</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.51567793px;line-height:1.25;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L';letter-spacing:0px;word-spacing:0px;fill:#009246;fill-opacity:1;stroke:url(#linearGradient891);stroke-width:0.1;stroke-opacity:1;"
+         x="-159.89182"
+         y="217.65588"
+         id="text953"><tspan
+           sodipodi:role="line"
+           id="tspan951"
+           x="-159.89182"
+           y="217.65588"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Adobe Heiti Std';-inkscape-font-specification:'Adobe Heiti Std';fill:#009246;fill-opacity:1;stroke:url(#linearGradient891);stroke-width:0.1;stroke-opacity:1;">INDICE</tspan></text>
+    </g>
+  </g>
+</svg>
