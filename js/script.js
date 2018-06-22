@@ -28,7 +28,7 @@ $(document).ready(function(){
         text = $(this).text();
         if(text != "Indice"){
             ids++;
-            anchor = text + ids;
+            anchor = "indice" + ids;
             $(this).attr("id", anchor);
             $("#index ul").append("<li><a class='navSoft' href='#" + anchor + "'>" + text + "</a></li>");
         }
