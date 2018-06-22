@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
     var page = 'https://dognew.github.io/corso-di-italiano/';
+    var ids = 0;
 
     // function checkUrl(url){
     //     var http = new XMLHttpRequest();
@@ -24,14 +25,12 @@ $(document).ready(function(){
     });
 
     $(".nameAnchor").each(function(){
-        anchor = $(this).attr("id");
         text = $(this).text();
-        if(anchor != "indice" && anchor != undefined){
+        if(text != "Indice"){
+            ids++;
+            anchor = text + ids;
+            $(this).attr("id", anchor);
             $("#index ul").append("<li><a class='navSoft' href='#" + anchor + "'>" + text + "</a></li>");
-        }
-        if(anchor == undefined){
-            alert("Exists anchors undefined!");
-            $(this).css("background-color","red");
         }
     });
 
