@@ -3,6 +3,7 @@ $(document).ready(function(){
     var page = 'https://dognew.github.io/corso-di-italiano/';
     var ids = 0;
 
+
     // function checkUrl(url){
     //     var http = new XMLHttpRequest();
     //     http.open('HEAD', url, false);
@@ -17,6 +18,29 @@ $(document).ready(function(){
     //         $(this).hide();
     //     }
     // });
+
+    function mobile(){
+        $("section").each(function(){
+            $(this).css({
+                "width" : "95%",
+                "padding" : "25px 10px 200px 10px"
+            });
+            $("#rodape").css({
+                "width": "95%",
+                "left" : "2.5%"
+            });
+            $("#rodape audio").css("width", "80%");
+            $(".mail").css({
+                "font-size" : "1.2em",
+                "padding" : "15px 15px 30px 15px"
+            });
+        });
+        $("article").each(function(){
+            $(this).css({
+                "padding" : "0px 5px 15px 5px"
+            });
+        });
+    }
 
     $(".player").on("click", function(){
         $("#audioPlayer source").attr("src",$(this).attr("audio"));
@@ -46,27 +70,17 @@ $(document).ready(function(){
     $(".translate").on("click", function(){
         $(this).toggleClass("translateClick");
     });
-
+    
     if(navigator.userAgent.indexOf('Android') != -1){
-        $("section").each(function(){
-            $(this).css({
-                "width" : "95%",
-                "padding" : "25px 10px 200px 10px"
-            });
-            $("#rodape").css({
-                "width": "95%",
-                "left" : "2.5%"
-            });
-            $("#rodape audio").css("width", "80%");
-            $(".mail").css({
-                "font-size" : "1.2em",
-                "padding" : "15px 15px 30px 15px"
-            });
-        });
-        $("article").each(function(){
-            $(this).css({
-                "padding" : "0px 5px 15px 5px"
-            });
-        });
+        mobile();
     }
+    else if(navigator.userAgent.indexOf('Android') == -1 && $(document).width() <= 1280 ){
+        mobile();
+    }
+
+    $(document).resize(function(){
+        if( $(document).width() <= 1280){
+            mobile();
+        }
+    });
 });
