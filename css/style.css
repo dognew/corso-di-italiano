@@ -54,10 +54,6 @@ a:hover{
 	opacity: 0.6;
 }
 
-input{
-	width: auto;
-}
-
 body{
 	color: var(--greenFern);
 	padding: 0;
@@ -79,6 +75,10 @@ section{
 	margin: 0 auto 0;
 	background-color: var(--whiteBright);
 	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px){
+	width: calc( 95% - 40px );
 }
 
 footer{
@@ -185,4 +185,11 @@ footer ul li{
 	height: auto;
 	background-image: url(../imgs/Translate_of_Brazil_to_Italy.svg.png);
 	background-position: top right;
+}
+
+.answer{
+	border: thin ridge var(--redFlameScarlet);
+	min-width: 10px;
+	line-height: 2em;
+	padding: 5px;
 }
