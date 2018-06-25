@@ -33,7 +33,7 @@ $(document).ready(function(){
             $("#index ul").append("<li><a class='navSoft' href='#" + anchor + "'>" + text + "</a></li>");
         }
     });
-
+    
     $(document).scroll(function(){
         var y = $(this).scrollTop();
         if(y > 800){
@@ -47,13 +47,26 @@ $(document).ready(function(){
         $(this).toggleClass("translateClick");
     });
 
-    $($("section")).each(function(){
-        if($(this).width() <= 720){
-            $(this).css("width","95%");
+    if(navigator.userAgent.indexOf('Android') != -1){
+        $("section").each(function(){
+            $(this).css({
+                "width" : "95%",
+                "padding" : "25px 10px 200px 10px"
+            });
             $("#rodape").css({
                 "width": "95%",
                 "left" : "2.5%"
             });
-        }
-    });
+            $("#rodape audio").css("width", "80%");
+            $(".mail").css({
+                "font-size" : "1.2em",
+                "padding" : "15px 15px 30px 15px"
+            });
+        });
+        $("article").each(function(){
+            $(this).css({
+                "padding" : "0px 5px 15px 5px"
+            });
+        });
+    }
 });
