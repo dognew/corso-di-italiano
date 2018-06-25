@@ -46,4 +46,14 @@ $(document).ready(function(){
     $(".translate").on("click", function(){
         $(this).toggleClass("translateClick");
     });
+
+    $($("section")).each(function(){
+        if($(this).width() <= 720){
+            $(this).css("width","95%");
+            $("#rodape").css({
+                "width": "95%",
+                "left" : "2.5%"
+            });
+        }
+    });
 });

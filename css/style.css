@@ -77,11 +77,7 @@ section{
 	word-wrap: break-word;
 }
 
-@media only screen and (max-width: 768px){
-	width: calc( 95% - 40px );
-}
-
-footer{
+#rodape{
 	position: fixed;
 	width: 72.7%;
 	bottom: 0;
@@ -90,12 +86,12 @@ footer{
 	background: linear-gradient(to top, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 0));
 }
 
-footer ul{
+#rodape ul{
 	margin: 0;
 	padding: 0;
 }
 
-footer ul li{
+#rodape ul li{
 	display: inline;
 	text-align: left;
 	margin: 0;
@@ -121,6 +117,7 @@ footer ul li{
 
 .myphoto{
 	min-width: 50px;
+	width: 15%;
 	max-width: 70px;
 }
 
