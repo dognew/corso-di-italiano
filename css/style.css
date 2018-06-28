@@ -185,6 +185,9 @@ section{
 }
 
 .answer{
+	color: var(--redFlameScarlet);
+	font-size: 1.2;
+	letter-spacing: 0.1em;
 	border: thin ridge var(--redFlameScarlet);
 	min-width: 10px;
 	line-height: 2em;
