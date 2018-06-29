@@ -178,6 +178,7 @@ section{
 }
 
 .translateClick{
+	display: inherit;
 	border: thin ridge var(--greenFern);
 	width: auto;
 	height: auto;

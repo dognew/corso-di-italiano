@@ -42,6 +42,10 @@ $(document).ready(function(){
         });
     }
 
+    function heightScreen(){
+        return $('window.innerHeight');
+    }
+
     $(".player").on("click", function(){
         $("#audioPlayer source").attr("src",$(this).attr("audio"));
         $("#audioPlayer").trigger("load");
@@ -69,6 +73,9 @@ $(document).ready(function(){
 
     $(".translate").on("click", function(){
         $(this).toggleClass("translateClick");
+        $('html, body').animate({
+            scrollTop : ($(this).offset().top - 100)
+        }, 1000);
     });
     
     if(navigator.userAgent.indexOf('Android') != -1){
