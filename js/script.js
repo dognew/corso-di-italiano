@@ -49,7 +49,7 @@ $(document).ready(function(){
     });
 
     $(".nameAnchor").each(function(){
-        text = $(this).text();
+        text = $(this).clone().children().remove().end().text();
         if(text != "Indice"){
             ids++;
             anchor = "indice" + ids;
