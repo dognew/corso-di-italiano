@@ -32,7 +32,7 @@ $(document).ready(function(){
             $("#rodape audio").css("width", "80%");
             $(".mail").css({
                 "font-size" : "1.2em",
-                "padding" : "15px 15px 30px 15px"
+                "padding" : "15px 15px 30px 15px !important"
             });
         });
         $("article").each(function(){
@@ -72,9 +72,6 @@ $(document).ready(function(){
     });
     
     if(navigator.userAgent.indexOf('Android') != -1){
-        mobile();
-    }
-    else if(navigator.userAgent.indexOf('Android') == -1 && $(document).width() <= 1280 ){
         mobile();
     }
 
