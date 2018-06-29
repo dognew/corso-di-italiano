@@ -155,8 +155,9 @@ section{
 }
 
 .translate{
-	width: 15%;
-	height: 50px;
+	display: inline-block;
+	width: 36px;
+	height: 25px;
 	text-align: left;
 	padding: 10px;
 	color: var(--redFlameScarlet);
@@ -164,7 +165,7 @@ section{
 	overflow: hidden;
 	background-image: url(../imgs/Translate_of_Italy_to_Brazil.svg.png);
 	background-repeat: no-repeat;
-	background-size: auto 50px;
+	background-size: 100% 100%;
 	background-position: top left;
 }
 
@@ -182,6 +183,7 @@ section{
 	height: auto;
 	background-image: url(../imgs/Translate_of_Brazil_to_Italy.svg.png);
 	background-position: top right;
+	background-size: 72px 50px;
 }
 
 .answer{
