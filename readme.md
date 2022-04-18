@@ -2,6 +2,8 @@
 
 ## Linguistic and pedagogical training course for teachers of the municipal education network and for the training and qualification of Italian language teachers in Caraguatatuba/SP.
 
+Visit the page: [Click here](https://github.com/dognew/corso-di-italiano.git).
+
 For more information, read the [programa-450.txt](docs/programa-450.txt) file provided by the course.
 
 
