@@ -2,6 +2,8 @@
 
 ## Curso de formação linguística e pedagógica para professores da rede municipal de ensino e para a formação e qualificação de professores de língua italiana em Caraguatatuba/SP.
 
+Visite a página: [Clique aqui](https://github.com/dognew/corso-di-italiano.git).
+
 Para mais informações, leia o arquivo ["programa-450.txt"](docs/programa-450.txt) fornecido pelo curso.
 
 
