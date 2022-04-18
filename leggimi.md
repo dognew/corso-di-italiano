@@ -2,7 +2,7 @@
 
 ## Corso di formazione linguistica e pedagogica per insegnanti della rete municipale di istruzione e per la formazione e la qualifica di insegnanti di lingua italiana realizzato in Caraguatatuba/SP.
 
-Visita la pagina: [Clicca qui](https://github.com/dognew/corso-di-italiano.git).
+Visita la pagina: [Clicca qui](https://dognew.github.io/corso-di-italiano/).
 
 Per maggiori informazioni, leggi il file ["programa-450.txt"](docs/programa-450.txt) fornito dal corso.
 
